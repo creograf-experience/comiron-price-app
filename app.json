@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Comiron Price",
+    "description": "",
+    "slug": "comiron-price",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.0.25",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/notification-icon.png"
+    },
+    "locales": {
+      "ru": "./locale/ruInfo.json",
+      "en": "./locale/enInfo.json"
+    },
+    "splash": {
+      "image": "./assets/new-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#44454a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.comiron",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCd5892PWqzvgWR6FHhcbPSHaFq_sJLXXA"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "The app would like to access your camera to taking the photo for your profile photo upload or to scanning the QR Code. Your photos won't be shared without your permission.",
+        "NSPhotoLibraryUsageDescription": "The app would like to access your photo gallery for your profile photo upload. Your photos won't be shared without your permission.",
+        "NSLocationAlwaysUsageDescription": "The app would like to access your geolocation."
+      }
+    },
+    "android": {
+      "package": "com.comiron",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 25,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCd5892PWqzvgWR6FHhcbPSHaFq_sJLXXA"
+        }
+      }
+    }
+  }
+}

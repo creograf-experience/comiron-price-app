@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "369255368556",
+    "firebase_url": "https://comiron-price-app.firebaseio.com",
+    "project_id": "comiron-price-app",
+    "storage_bucket": "comiron-price-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369255368556:android:d18fd9de5486f52e96d549",
+        "android_client_info": {
+          "package_name": "com.comiron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369255368556-bn3n758c9sgg9ulokrdog52n3r9g96js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMUjxN2A825T5rDuxBu0bd8kWsz4Zdic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369255368556-bn3n758c9sgg9ulokrdog52n3r9g96js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
